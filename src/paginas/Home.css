@@ -1,0 +1,37 @@
+.CARPET{
+    text-align: center;
+    font-size: 50px;
+}
+.bar{
+    background-color: orangered;
+    display:flex;
+    justify-content: space-around;
+    padding: 0px 20px;
+}
+.botao{
+    padding: 5px 20px;
+    border-radius: 0px;
+    background-color: orangered;
+    border-style:none ;
+    border-right: 2px solid #ffff;
+    flex-grow: 1;
+}
+.botao1{
+    padding: 10px 20px;
+    border-radius: 0px;
+    background-color: orangered;
+    border-style:none ;
+    flex-grow: 1;
+}
+
+.Link{
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: 1000;
+}
+.botao1:hover{
+    background-color: rgb(207, 57, 3);
+}
+.botao:hover{
+    background-color: rgb(207, 57, 3);
+}
